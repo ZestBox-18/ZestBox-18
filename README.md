@@ -14,7 +14,7 @@
 
 ## 📊 GitHub 统计
 
-![GitHub Metrics](https://github.com/ZestBox-18/ZestBox-18/blob/output/github-metrics.svg)
+![GitHub Metrics](https://raw.githubusercontent.com/ZestBox-18/ZestBox-18/output/github-metrics.svg)
 
 ---
 
