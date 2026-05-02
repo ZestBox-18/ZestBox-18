@@ -9,28 +9,28 @@
 ## 🐍 GitHub 贡献贪吃蛇
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZestBox-18/ZestBox-18/main/snake/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ZestBox-18/ZestBox-18/main/snake/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/ZestBox-18/ZestBox-18/main/snake/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZestBox-18/ZestBox-18/output/snake/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ZestBox-18/ZestBox-18/output/snake/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/ZestBox-18/ZestBox-18/output/snake/github-snake.svg" />
 </picture>
 
 ## 📊 GitHub 统计
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZestBox-18/ZestBox-18/main/cards/github_dark/0-profile-details.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ZestBox-18/ZestBox-18/main/cards/vue/0-profile-details.svg" />
-  <img src="https://raw.githubusercontent.com/ZestBox-18/ZestBox-18/main/cards/vue/0-profile-details.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZestBox-18/ZestBox-18/output/cards/github_dark/0-profile-details.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ZestBox-18/ZestBox-18/output/cards/vue/0-profile-details.svg" />
+  <img src="https://raw.githubusercontent.com/ZestBox-18/ZestBox-18/output/cards/vue/0-profile-details.svg" />
 </picture>
 <br/>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZestBox-18/ZestBox-18/main/cards/github_dark/1-repos-per-language.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ZestBox-18/ZestBox-18/main/cards/vue/1-repos-per-language.svg" />
-  <img src="https://raw.githubusercontent.com/ZestBox-18/ZestBox-18/main/cards/vue/1-repos-per-language.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZestBox-18/ZestBox-18/output/cards/github_dark/1-repos-per-language.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ZestBox-18/ZestBox-18/output/cards/vue/1-repos-per-language.svg" />
+  <img src="https://raw.githubusercontent.com/ZestBox-18/ZestBox-18/output/cards/vue/1-repos-per-language.svg" />
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZestBox-18/ZestBox-18/main/cards/github_dark/2-most-commit-language.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ZestBox-18/ZestBox-18/main/cards/vue/2-most-commit-language.svg" />
-  <img src="https://raw.githubusercontent.com/ZestBox-18/ZestBox-18/main/cards/vue/2-most-commit-language.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZestBox-18/ZestBox-18/output/cards/github_dark/2-most-commit-language.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ZestBox-18/ZestBox-18/output/cards/vue/2-most-commit-language.svg" />
+  <img src="https://raw.githubusercontent.com/ZestBox-18/ZestBox-18/output/cards/vue/2-most-commit-language.svg" />
 </picture>
 
 ---
