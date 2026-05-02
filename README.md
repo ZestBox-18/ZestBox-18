@@ -14,13 +14,7 @@
 
 ## 📊 GitHub 统计
 
-<div align="center">
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ZestBox-18&locale=cn&line_height=33&theme=default&langs_count=5)
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ZestBox-18&locale=cn&show_icons=true&theme=default&hide_border=true&count_private=true)
-
-</div>
+![GitHub Metrics](https://github.com/ZestBox-18/ZestBox-18/blob/output/github-metrics.svg)
 
 ---
 
