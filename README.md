@@ -16,9 +16,9 @@
 
 <div align="center">
 
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZestBox-18&locale=cn&line_height=33&theme=default&langs_count=5" />
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ZestBox-18&locale=cn&line_height=33&theme=default&langs_count=5)
 
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=ZestBox-18&locale=cn&show_icons=true&theme=default&hide_border=true&count_private=true" />
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ZestBox-18&locale=cn&show_icons=true&theme=default&hide_border=true&count_private=true)
 
 </div>
 
