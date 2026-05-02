@@ -37,7 +37,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: output
           fetch-depth: 0
       
       - name: 生成 GitHub Metrics
@@ -53,5 +52,3 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_details: bytes-size, percentage
           plugin_languages_indepth: yes
-          output: |
-            github-metrics.svg
