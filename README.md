@@ -35,6 +35,6 @@
 
 ---
 
-<i>感谢访问我的主页！</i>
+<i>感谢访问我的主页！国内：[<img src="https://cdn.simpleicons.org/gitee/C71D23" alt="Gitee" height="20" />](https://gitee.com/zestbox)</i>
 
 </div>
