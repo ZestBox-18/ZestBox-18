@@ -1,4 +1,4 @@
-name: Generate Snake Animation
+name: 生成贪吃蛇动画
 
 on:
   schedule:
@@ -14,7 +14,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate snake
+      - name: 生成贪吃蛇
         uses: Platane/snk@v3
         with:
           github_user_name: ZestBox-18
@@ -22,7 +22,7 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      - name: Commit and push
+      - name: 提交并推送
         uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
