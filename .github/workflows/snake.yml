@@ -1,11 +1,13 @@
-name: 生成贪吃蛇动画
+name: 生成贪吃蛇动画和 GitHub 统计
 
 on:
   schedule:
     # 每天 UTC 00:00 运行（北京时间 08:00）
     - cron: "0 0 * * *"
   workflow_dispatch: # 允许手动触发
-  push: # 每次推送代码时触发
+  push:
+    branches:
+      - main # 只有在 main 分支有推送时触发
 
 permissions:
   contents: write
@@ -14,6 +16,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # --- 生成贪吃蛇动画 ---
       - name: 生成贪吃蛇
         uses: Platane/snk@v3
         with:
@@ -22,7 +25,7 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      - name: 提交并推送
+      - name: 提交并推送贪吃蛇动画
         uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
@@ -39,6 +42,7 @@ jobs:
         with:
           fetch-depth: 0
       
+      # --- 生成 GitHub Metrics 统计图 ---
       - name: 生成 GitHub Metrics
         uses: lowlighter/metrics@latest
         with:
@@ -47,14 +51,27 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Shanghai
+          
+          # 基础设置
+          config_order: header, languages, topics, habits
+          
+          # 1. 语言插件
           plugin_languages: yes
-          plugin_languages_limit: 5
+          plugin_languages_limit: 8
           plugin_languages_sections: most-used
           plugin_languages_details: bytes-size, percentage
           plugin_languages_indepth: yes
+
+          # 2. 图标显示
           plugin_topics: yes
-          plugin_topics_limit: 10
-          plugin_topics_mode: starred
+          plugin_topics_limit: 0
+          plugin_topics_mode: icons
+          plugin_topics_sort: stars
+
+          # 3. 近期活动图表
           plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 14
           plugin_habits_charts: yes
-          plugin_habits_limit: 5
+          plugin_habits_facts: yes
+          plugin_habits_trim: yes
