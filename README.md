@@ -14,7 +14,11 @@
 
 ## 📊 GitHub 统计
 
-![GitHub Metrics](https://github.com/ZestBox-18/ZestBox-18/blob/main/github-metrics.svg)
+![](https://raw.githubusercontent.com/ZestBox-18/ZestBox-18/main/profile-summary-card-output/default/0-profile-details.svg)
+![](https://raw.githubusercontent.com/ZestBox-18/ZestBox-18/main/profile-summary-card-output/default/1-repos-per-language.svg)
+![](https://raw.githubusercontent.com/ZestBox-18/ZestBox-18/main/profile-summary-card-output/default/2-most-commit-language.svg)
+![](https://raw.githubusercontent.com/ZestBox-18/ZestBox-18/main/profile-summary-card-output/default/3-stats.svg)
+![](https://raw.githubusercontent.com/ZestBox-18/ZestBox-18/main/profile-summary-card-output/default/4-productive-time.svg)
 
 ---
 
