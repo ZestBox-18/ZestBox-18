@@ -52,3 +52,9 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_details: bytes-size, percentage
           plugin_languages_indepth: yes
+          plugin_topics: yes
+          plugin_topics_limit: 10
+          plugin_topics_mode: starred
+          plugin_habits: yes
+          plugin_habits_charts: yes
+          plugin_habits_limit: 5
