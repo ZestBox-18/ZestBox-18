@@ -15,6 +15,8 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       # --- 生成贪吃蛇动画 ---
       - name: 生成贪吃蛇
@@ -37,6 +39,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - uses: actions/checkout@v4
         with:
@@ -70,8 +74,8 @@ jobs:
 
           # 3. 近期活动图表
           plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_days: 14
+          plugin_habits_from: current
+          plugin_habits_days: 30
           plugin_habits_charts: yes
           plugin_habits_facts: yes
           plugin_habits_trim: yes
