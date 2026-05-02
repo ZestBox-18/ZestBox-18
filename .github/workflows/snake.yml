@@ -5,9 +5,6 @@ on:
     # 每天 UTC 00:00 运行（北京时间 08:00）
     - cron: "0 0 * * *"
   workflow_dispatch: # 允许手动触发
-  push:
-    branches:
-      - main # 只有在 main 分支有推送时触发
 
 permissions:
   contents: write
@@ -18,10 +15,9 @@ jobs:
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
-      - name: Checkout output 分支
+      - name: Checkout
         uses: actions/checkout@v4
         with:
-          ref: output
           fetch-depth: 0
 
       # --- 创建输出目录 ---
@@ -54,15 +50,12 @@ jobs:
           curl -s "https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ZestBox-18&theme=github_dark" > cards/github_dark/1-repos-per-language.svg
           curl -s "https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ZestBox-18&theme=github_dark" > cards/github_dark/2-most-commit-language.svg
 
-      - name: 清理旧文件并提交
+      - name: 提交并推送
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # 删除根目录下的旧文件
-          rm -f github-snake.svg github-snake-dark.svg 2>/dev/null || true
-          # 添加所有变更（包括删除）
-          git add -A
+          git add snake/ cards/
           git commit -m "更新贪吃蛇动画和 GitHub 统计卡片" || echo "没有变更"
-          git push origin output
+          git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
