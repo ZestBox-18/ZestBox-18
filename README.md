@@ -35,4 +35,4 @@ Find me on:
 <a href="https://gitee.com/zestbox" target="_blank"><img valign="middle" src="https://img.shields.io/badge/Gitee-C71D23?style=for-the-badge&logo=gitee&logoColor=white" /></a>
 <a href="https://linux.do/" target="_blank"><img valign="middle" src="https://img.shields.io/badge/Linux.do-000000?style=for-the-badge&logo=linux&logoColor=white" /></a>
 <a href="https://space.bilibili.com/486267640" target="_blank"><img valign="middle" src="https://img.shields.io/badge/Bilibili-00A1D6?style=for-the-badge&logo=bilibili&logoColor=white" /></a>
-<a href="https://www.xiaohongshu.com/user/profile/5dc67820000000000100abf5" target="_blank"><img valign="middle" src="https://img.shields.io/badge/Xiaohongshu-FF2442?style=for-the-badge&logo=xiaohongshu&logoColor=white" /></a>
+<a href="https://www.xiaohongshu.com/user/profile/5dc67820000000000100abf5" target="_blank"><img valign="middle" src="https://img.shields.io/badge/小红书-FF2442?style=for-the-badge&logo=xiaohongshu&logoColor=white" /></a>
